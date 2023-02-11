@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  background-color: #2d2d2d;
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 1.5em 2em 1em 2em;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header #logo-dnc {
+  width: 128px;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main #form-container {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main #form-container #form-header {
+  width: 100%;
+  padding: 1em 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#form-header #logo-jumpy {
+  padding-bottom: 1em;
+}
+
+main #form-container #form-main {
+  width: 100%;
+}
+
+#form-main form .form-inputs {
+  width: 100%;
+  margin: 0.7em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-inputs label {
+  padding-bottom: 0.3em;
+}
+
+.form-inputs input {
+  padding: 0.6em 0.5em;
+  border-radius: 0.5em;
+}
+
+.form-inputs input::placeholder {
+  font-size: 12px;
+}
+
+.form-inputs input:last-of-type {
+  margin-bottom: 0.5em;
+}
+
+.form-inputs input[type="password"]::placeholder {
+  font-size: 10px;
+}
+
+form #submit-btn {
+  width: 100%;
+  padding: 0.6em 0.5em;
+  border-radius: 0.5em;
+  font-weight: bold;
+  background-color: #0c70f2;
+  color: #fff;
+}
+
+form #submit-btn:hover {
+  background-color: #3984e7;
+  cursor: pointer;
+}
+
+form #submit-btn:active {
+  background-color: #00d6ed;
+  cursor: pointer;
+}
+
+#message #show-message {
+    font-size: 10px;
+    font-weight: lighter;
+    color: green;
+}

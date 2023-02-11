@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@100;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Jumpy - Login</title>
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo-dnc"
+        src="https://www.escoladnc.com.br/wp-content/uploads/2022/05/logo-negativo.svg"
+      />
+    </header>
+    <main>
+      <div id="form-container">
+        <div id="form-header">
+          <img
+            id="logo-jumpy"
+            src="assets/images/jumpy-logo.png"
+            alt="logo-jumpy"
+          />
+          <h2>Bem vindo ao Jumpy!</h2>
+        </div>
+        <div id="form-main">
+          <form>
+            <div class="form-inputs">
+              <label>Nome Completo:</label>
+              <input type="text" placeholder="Nome completo" />
+            </div>
+            <div class="form-inputs">
+              <label>Email:</label>
+              <input type="email" placeholder="Email@gmail.com" />
+            </div>
+            <div class="form-inputs">
+              <label>Telefone:</label>
+              <input type="tel" placeholder="(00) 00000-0000" />
+            </div>
+            <div class="form-inputs">
+              <label>CPF:</label>
+              <input type="text" placeholder="000.000.000-00" />
+            </div>
+            <div class="form-inputs">
+              <label>Senha:</label>
+              <input type="password" placeholder="***************" />
+            </div>
+            <button id="submit-btn" type="submit">Cadastrar</button>
+          </form>
+          <div id="message">
+            <span id="show-message"></span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="assets/scripts/main.js"></script>
+  </body>
+</html>
