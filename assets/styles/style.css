@@ -117,6 +117,6 @@ form #submit-btn:active {
 #message #show-message {
     font-size: 10px;
     font-weight: lighter;
-    color: green;
+    color: #1db71d;
     display: none;
 }
